@@ -74,39 +74,6 @@ const showImages = async () => {
   }
 };
 
-// return fetchImages(inputValue, page)
-//   .then(({ hits, totalHits }) => {
-//     if (hits.length === 0)
-//       return toastr.warning(
-//         'Sorry, there are no images matching your search query. Please try again.'
-//       );
-
-//     render(hits);
-
-//     if (page !== 1) {
-//       const { height: cardHeight } = document
-//         .querySelector('.gallery')
-//         .firstElementChild.getBoundingClientRect();
-
-//       window.scrollBy({
-//         top: cardHeight * 2,
-//         behavior: 'smooth',
-//       });
-
-//       refs.loadMoreBtn.classList.remove('hidden');
-//       maxPagesAmount = totalHits;
-
-//       lightbox.refresh();
-
-//       if (page === 1) {
-//         toastr.success(`Hooray! We found ${maxPagesAmount} images.`);
-//       }
-//     })
-//     .catch(error => {
-//       toastr.error(error.message);
-//     });
-// };
-
 const hideLoadMoreBtn = () => {
   refs.loadMoreBtn.classList.add('hidden');
 };
