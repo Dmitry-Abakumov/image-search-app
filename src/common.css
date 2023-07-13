@@ -72,12 +72,12 @@ input {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 5px;
+  gap: 15px;
 }
 
 .info-item {
   font-weight: bold;
-  color: gary;
+  color: gray;
 }
 
 .search-form {
