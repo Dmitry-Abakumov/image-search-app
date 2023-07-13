@@ -26,6 +26,10 @@ a {
   text-decoration: none;
 }
 
+p {
+  margin: 0;
+}
+
 img {
   display: block;
 }
@@ -42,6 +46,8 @@ button {
 
 input {
   padding: 10px 15px;
+  border: 1px solid gray;
+  border-radius: 10px;
 }
 
 .photo-card {
@@ -72,4 +78,11 @@ input {
 .info-item {
   font-weight: bold;
   color: gary;
+}
+
+.search-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
 }
