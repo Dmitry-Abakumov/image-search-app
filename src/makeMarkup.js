@@ -5,7 +5,7 @@ export const makeMarkup = queryResult => {
       <a href=${largeImageURL}>
     <div class="photo-card">
       <div class="img-wrapper">
-        <img src=${previewURL} alt="" loading="lazy" />
+        <img class="img" src=${previewURL} alt="" loading="lazy" />
       </div>
       <div class="info">
         <p class="info-item">
